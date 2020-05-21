@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import React from 'react';
 
 import Chapo from '../components/Chapo';
@@ -12,15 +11,14 @@ const IndexPage: React.FC = () => (
     <SEO title="Tokens, a podcast about accessible &amp; inclusive design systems" />
     <TokensHeading />
     <Chapo>
-      <Tokens /> is a podcast hosted by{' '}
-      <Link to="https://twitter.com/iamhiwelo">Damien Senger</Link> about the{' '}
-      <strong>daily life of accessible and inclusive design systems</strong> projects.
+      <Tokens /> is a podcast hosted by <a href="https://twitter.com/iamhiwelo">Damien Senger</a>{' '}
+      about the <strong>daily life of accessible and inclusive design systems</strong> projects.
     </Chapo>
     <Chapo>
       New episodes are released <strong>every two weeks</strong> on Tuesdays on&nbsp;
-      <Link to="https://podcasts.apple.com/">Apple&nbsp;Podcasts</Link>,{' '}
-      <Link to="https://open.spotify.com/">Spotify</Link> and{' '}
-      <Link to="https://soundcloud.com/tokens-podcast">Soundcloud</Link>.
+      <a href="https://podcasts.apple.com/">Apple&nbsp;Podcasts</a>,{' '}
+      <a href="https://open.spotify.com/">Spotify</a> and{' '}
+      <a href="https://soundcloud.com/tokens-podcast">Soundcloud</a>.
     </Chapo>
     <Chapo>
       Stay tuned for the first episode, published on&nbsp;

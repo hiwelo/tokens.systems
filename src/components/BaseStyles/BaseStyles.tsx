@@ -32,6 +32,34 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%;
   }
 
+  a {
+    position: relative;
+    display: inline-block;
+    color: var(--color-text);
+    transition: color 0.2s ease-in, font-weight 0.2s ease-in;
+
+    &:focus {
+      color: var(--color-session);
+      outline: none;
+
+      &::before {
+        position: absolute;
+        bottom: -0.1rem;
+        left: -0.4rem;
+        right: -0.4rem;
+        top: -0.2rem;
+        content: '';
+        border: 0.2rem solid var(--color-session);
+        border-radius: 0.6rem;
+      }
+    }
+
+    &:hover {
+      color: var(--color-session);
+      font-weight: 550;
+    }
+  }
+
   body {
     margin: 0;
     padding: 0;
