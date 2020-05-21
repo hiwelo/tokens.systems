@@ -23,7 +23,8 @@ const IndexPage: React.FC = () => (
       <Link to="https://soundcloud.com/tokens-podcast">Soundcloud</Link>.
     </Chapo>
     <Chapo>
-      Stay tuned for the first episode, published on <strong>Tuesday, May 26th 2020</strong>.
+      Stay tuned for the first episode, published on&nbsp;
+      <strong>Tuesday, May&nbsp;26th&nbsp;2020</strong>.
     </Chapo>
   </Layout>
 );
