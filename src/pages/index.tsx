@@ -1,24 +1,13 @@
-import { Link } from 'gatsby';
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Tokens from '../components/Tokens/Tokens';
-import Image from '../components/image';
+import TokensLogo from '../components/TokensLogo';
 import SEO from '../components/seo';
 
 const IndexPage: React.FC = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <div>
-      <Tokens />
-    </div>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title="Tokens, a podcast about accessible &amp; inclusive design systems" />
+    <TokensLogo background={false} />
   </Layout>
 );
 

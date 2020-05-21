@@ -5,10 +5,7 @@ import Frame from './components/Frame';
 
 const Layout: React.FC = ({ children }) => (
   <BaseStyles>
-    <Frame>
-      <div>Test 2</div>
-      {children}
-    </Frame>
+    <Frame>{children}</Frame>
   </BaseStyles>
 );
 

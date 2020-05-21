@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Tokens podcast`,
+    title: `tokens.systems`,
     description: `tokens.systems is a podcast hosted by @iamhiwelo about the daily life of accessible and inclusive design systems projects`,
     author: `@PodcastTokens`,
   },
@@ -27,6 +27,14 @@ module.exports = {
         theme_color: `#8b0d88`,
         display: `minimal-ui`,
         icon: `src/images/tokens-systems-logo@3x.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets/, // See below to configure properly
+        },
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
