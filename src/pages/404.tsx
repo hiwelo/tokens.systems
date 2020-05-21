@@ -3,7 +3,7 @@ import React from 'react';
 
 import Chapo from '../components/Chapo';
 import Layout from '../components/Layout';
-import SEO from '../components/seo';
+import SEO from '../components/SEO';
 
 const NotFoundPage: React.FC = () => (
   <Layout>
