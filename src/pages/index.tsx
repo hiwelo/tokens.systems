@@ -24,7 +24,10 @@ const IndexPage: React.FC = () => (
     </Chapo>
     <Chapo>
       Stay tuned for the first episode, published on&nbsp;
-      <strong>Tuesday, May&nbsp;26th&nbsp;2020</strong>.
+      <time dateTime="2020-05-26">
+        <strong>Tuesday, May&nbsp;26th&nbsp;2020</strong>
+      </time>
+      .
     </Chapo>
   </Layout>
 );
