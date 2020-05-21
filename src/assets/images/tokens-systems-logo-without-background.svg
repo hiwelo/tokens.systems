@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="640px" height="640px" viewBox="0 0 640 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="640px" height="640px" viewBox="0 0 640 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="presentation">
     <title>Tokens Podcast</title>
     <g id="tokens-systems-logo-without-background" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Logo" transform="translate(88.000000, 168.000000)">
-            <circle id="Oval-Copy-103" fill="#8B0D88" cx="252" cy="92" r="12"></circle>
-            <circle id="Oval-Copy-104" fill="#C00384" cx="372" cy="212" r="12"></circle>
-            <circle id="Oval-Copy-154" fill="#303A99" cx="132" cy="212" r="12"></circle>
-            <rect id="Rectangle" fill="#034EA2" x="0" y="120" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle-Copy-7" fill="#F10080" x="440" y="120" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle" fill="#5E2390" x="160" y="120" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle-Copy-13" fill="#034EA2" x="40" y="80" width="24" height="144" rx="12"></rect>
-            <rect id="Rectangle-Copy" fill="#5E2390" x="200" y="0" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle-Copy-3" fill="#5E2390" x="200" y="80" width="24" height="104" rx="12"></rect>
-            <rect id="Rectangle" fill="#303A99" x="80" y="40" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle-Copy-9" fill="#F10080" x="400" y="40" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle-Copy-5" fill="#8B0D88" x="280" y="200" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle-Copy-11" fill="#C00384" x="320" y="120" width="24" height="64" rx="12"></rect>
-            <rect id="Rectangle-Copy-10" fill="#C00384" x="360" y="80" width="24" height="104" rx="12"></rect>
-            <rect id="Rectangle" fill="#303A99" x="120" y="80" width="24" height="104" rx="12"></rect>
-            <rect id="Rectangle-Copy-4" fill="#8B0D88" x="240" y="120" width="24" height="104" rx="12"></rect>
-            <rect id="Rectangle-Copy-2" fill="#5E2390" x="200" y="200" width="24" height="104" rx="12"></rect>
-            <rect id="Rectangle" fill="#303A99" x="80" y="120" width="24" height="144" rx="12"></rect>
-            <rect id="Rectangle-Copy-8" fill="#F10080" x="400" y="120" width="24" height="144" rx="12"></rect>
-            <rect id="Rectangle-Copy-6" fill="#8B0D88" x="280" y="40" width="24" height="144" rx="12"></rect>
+            <circle role="presentation" id="Oval-Copy-103" fill="#8B0D88" cx="252" cy="92" r="12"></circle>
+            <circle role="presentation" id="Oval-Copy-104" fill="#C00384" cx="372" cy="212" r="12"></circle>
+            <circle role="presentation" id="Oval-Copy-154" fill="#303A99" cx="132" cy="212" r="12"></circle>
+            <rect role="presentation" id="Rectangle" fill="#034EA2" x="0" y="120" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-7" fill="#F10080" x="440" y="120" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle" fill="#5E2390" x="160" y="120" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-13" fill="#034EA2" x="40" y="80" width="24" height="144" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy" fill="#5E2390" x="200" y="0" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-3" fill="#5E2390" x="200" y="80" width="24" height="104" rx="12"></rect>
+            <rect role="presentation" id="Rectangle" fill="#303A99" x="80" y="40" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-9" fill="#F10080" x="400" y="40" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-5" fill="#8B0D88" x="280" y="200" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-11" fill="#C00384" x="320" y="120" width="24" height="64" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-10" fill="#C00384" x="360" y="80" width="24" height="104" rx="12"></rect>
+            <rect role="presentation" id="Rectangle" fill="#303A99" x="120" y="80" width="24" height="104" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-4" fill="#8B0D88" x="240" y="120" width="24" height="104" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-2" fill="#5E2390" x="200" y="200" width="24" height="104" rx="12"></rect>
+            <rect role="presentation" id="Rectangle" fill="#303A99" x="80" y="120" width="24" height="144" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-8" fill="#F10080" x="400" y="120" width="24" height="144" rx="12"></rect>
+            <rect role="presentation" id="Rectangle-Copy-6" fill="#8B0D88" x="280" y="40" width="24" height="144" rx="12"></rect>
         </g>
     </g>
 </svg>
