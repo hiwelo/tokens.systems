@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 
-const tokensColors = ['#034EA2', '#303A99', '#5E2390', '#8B0D88', '#C00384', '#F10080'];
+import { colors } from '../../../modules/theme';
 
 const StyledToken = styled.span`
-  ${tokensColors.map(
+  ${Object.values(colors).map(
     (color, index) => css`
       & > :nth-child(${index + 1}) {
         color: ${color};
