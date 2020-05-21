@@ -6,7 +6,7 @@ const Frame = styled.div`
   position: relative;
   height: 100vh;
   overflow: scroll hidden;
-  padding: 3.2rem;
+  padding: 3.2rem 4rem;
   width: 100vw;
 
   &::before {

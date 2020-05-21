@@ -1,11 +1,11 @@
 import React from 'react';
 
-import TokensLogo from '../TokensLogo';
 import BrandWrapper from './components/BrandWrapper';
+import HeaderLogo from './components/HeaderLogo';
 
 const Header: React.FC = () => (
   <BrandWrapper>
-    <TokensLogo background={false} />
+    <HeaderLogo />
   </BrandWrapper>
 );
 

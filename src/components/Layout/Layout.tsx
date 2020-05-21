@@ -2,13 +2,16 @@ import React from 'react';
 
 import BaseStyles from '../BaseStyles';
 import Header from '../Header';
+import ContentWrapper from './components/ContentWrapper';
 import Frame from './components/Frame';
 
 const Layout: React.FC = ({ children }) => (
   <BaseStyles>
     <Frame>
-      <Header />
-      {children}
+      <ContentWrapper>
+        <Header />
+        {children}
+      </ContentWrapper>
     </Frame>
   </BaseStyles>
 );
