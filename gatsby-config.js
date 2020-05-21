@@ -5,6 +5,7 @@ module.exports = {
     author: `@PodcastTokens`,
   },
   plugins: [
+    `gatsby-plugin-typescript`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

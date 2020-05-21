@@ -19,6 +19,10 @@
     "react-helmet": "^6.0.0"
   },
   "devDependencies": {
+    "@types/node": "^14.0.4",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "gatsby-plugin-typescript": "^2.4.3",
     "prettier": "2.0.5"
   },
   "keywords": [
@@ -32,7 +36,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "yarn type-check --watch"
   },
   "repository": {
     "type": "git",
