@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Chapo from '../components/Chapo';
+import LatestEpisode from '../components/LatestEpisode';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Tokens from '../components/Tokens';
@@ -27,6 +28,7 @@ const IndexPage: React.FC = () => (
       </time>
       .
     </Chapo>
+    <LatestEpisode />
   </Layout>
 );
 

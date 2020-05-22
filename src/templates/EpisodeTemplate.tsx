@@ -3,6 +3,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
+import { EpisodeData } from '../types/Episode';
 
 const EpisodeTemplate: React.FC<EpisodeTemplateProps> = ({ data }) => {
   const { markdownRemark } = data; // data.markdownRemark holds your post data
@@ -37,11 +38,7 @@ export const pageQuery = graphql`
 export interface EpisodeTemplateProps {
   data: {
     markdownRemark: {
-      frontmatter: {
-        date: Date;
-        slug: string;
-        title: string;
-      };
+      frontmatter: EpisodeData;
       html: string;
     };
   };
