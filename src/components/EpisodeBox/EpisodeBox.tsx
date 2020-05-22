@@ -3,6 +3,7 @@ import React from 'react';
 
 import { EpisodeData } from '../../types/Episode';
 import Box from '../Box';
+import Chapo from '../Chapo';
 import EpisodeContainer from './components/EpisodeContainer';
 import EpisodeHeader from './components/EpisodeHeader';
 import EpisodeNumber from './components/EpisodeNumber';
@@ -19,6 +20,7 @@ const EpisodeBox: React.FC<EpisodeBoxProps> = ({ excerpt, number, slug, title })
           </EpisodeTitle>
         </EpisodeHeader>
         {excerpt && <p>{excerpt}</p>}
+        <Chapo>Stay tuned for the release, next Tuesday!</Chapo>
       </Box>
     </EpisodeContainer>
   );
