@@ -1,36 +1,31 @@
 import styled from 'styled-components';
 
-const Frame = styled.div`
-  --frame-border: 0.2rem;
-
-  position: relative;
-  padding: 3.2rem 4rem;
-  width: 100vw;
-
+const FrameBottom = styled.span`
   &::before {
     position: fixed;
     bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
+    left: 1.6rem;
+    right: 1.6rem;
     display: block;
+    height: 1.6rem;
     content: '';
     background: radial-gradient(var(--color-session) 35%, transparent 40%);
+    background-attachment: scroll;
     background-size: var(--frame-border) var(--frame-border);
-    z-index: -2;
+    z-index: 2;
   }
 
   &::after {
     position: fixed;
-    bottom: 1.6rem;
+    bottom: 0;
     left: 1.6rem;
     right: 1.6rem;
-    top: 1.6rem;
     display: block;
+    height: 3.2rem;
     content: '';
     background: var(--color-background);
-    z-index: -1;
+    z-index: 1;
   }
 `;
 
-export default Frame;
+export default FrameBottom;
