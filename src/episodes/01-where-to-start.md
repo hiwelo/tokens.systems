@@ -6,4 +6,18 @@ number: 1
 status: "published"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu elementum augue. Etiam pretium placerat mi, vel consequat odio pellentesque eget. Proin sit amet neque eget ante gravida dictum. Etiam posuere massa blandit urna semper, et aliquet sapien sollicitudin. Nunc sodales lorem quis urna viverra volutpat quis finibus orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus iaculis facilisis leo a vehicula. Duis non volutpat velit. Nullam laoreet nibh ac congue cursus. Curabitur ultricies mauris id sem ornare, at tempor nisi bibendum. Praesent eget lacus ac felis tristique blandit pharetra ac ante. Vivamus facilisis purus in risus dignissim, dapibus mollis mauris lacinia. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus a nibh semper, molestie elit sed, aliquet velit. 
+Is there a better way to start this project than discussing _where to start_.
+
+For this first episode, I want to share with you my experience of starting a
+design system project in a startup environment, within a small design team and
+limited resources in the engineering space.
+
+Starting a design systems project in such environment is a marathon, where you 
+constantly have to balance the end goal, your own wishes and the reality of the
+resources available.
+How to convince your stakeholders of the benefits? Where to find support? How to
+fix realistic goals and milestones? 
+
+Let's discuss all of that, and the
+importance to identify the current pain points a design system can help to 
+resolve.
