@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
 import { EpisodeData } from '../../types/Episode';
-import Box from '../Box/Box';
+import EpisodeBox from '../EpisodeBox';
 
 const LatestEpisode: React.FC = () => {
   // Fetches information about the latest published episode
@@ -10,7 +10,7 @@ const LatestEpisode: React.FC = () => {
     allMarkdownRemark: { nodes },
   } = useStaticQuery<{
     allMarkdownRemark: {
-      nodes: [{ frontmatter: EpisodeData }];
+      nodes: [{ excerpt: string; frontmatter: EpisodeData }];
     };
   }>(graphql`
     query {
@@ -20,8 +20,10 @@ const LatestEpisode: React.FC = () => {
         filter: { frontmatter: { status: { eq: "published" } } }
       ) {
         nodes {
+          excerpt(format: PLAIN, pruneLength: 150)
           frontmatter {
             date
+            number
             slug
             status
             title
@@ -32,11 +34,9 @@ const LatestEpisode: React.FC = () => {
   `);
 
   // Makes the information about the latest published episode accessible
-  const {
-    frontmatter: { title },
-  } = nodes[0];
+  const { excerpt, frontmatter } = nodes[0];
 
-  return <Box as="article">{title}</Box>;
+  return <EpisodeBox excerpt={excerpt} {...frontmatter} />;
 };
 
 export default LatestEpisode;

@@ -5,7 +5,7 @@ const Frame = styled.div`
 
   position: relative;
   height: 100vh;
-  overflow: scroll hidden;
+  overflow: hidden;
   padding: 3.2rem 4rem;
   width: 100vw;
 

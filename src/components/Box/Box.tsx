@@ -9,7 +9,7 @@ const Box: React.FC<BoxProps> = ({ children, ...rest }) => (
   </BoxWrapper>
 );
 
-interface BoxProps {
+interface BoxProps extends React.HTMLAttributes<HTMLElement> {
   /** Markup to use for this box */
   as?: any;
 }

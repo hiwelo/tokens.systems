@@ -28,6 +28,7 @@ const GlobalStyles = createGlobalStyle`
     --font-defaults: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --font-size-heading-main: clamp(3.2rem, 5.4vw, 8rem);
     --font-size-chapo: clamp(1.8rem, 1.4vw, 2.2rem);
+    --font-size-section-title: 2rem;
 
     font-size: 62.5%;
   }

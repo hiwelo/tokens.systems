@@ -4,6 +4,7 @@ import Chapo from '../components/Chapo';
 import LatestEpisode from '../components/LatestEpisode';
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
+import Section from '../components/Section';
 import Tokens from '../components/Tokens';
 import TokensHeading from '../components/TokensHeading';
 
@@ -28,7 +29,9 @@ const IndexPage: React.FC = () => (
       </time>
       .
     </Chapo>
-    <LatestEpisode />
+    <Section>
+      <LatestEpisode />
+    </Section>
   </Layout>
 );
 
