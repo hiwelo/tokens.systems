@@ -11,7 +11,7 @@ const FrameClosure = styled.span<FrameClosureProps>(
       height: 1.6rem;
       content: '';
       background: radial-gradient(var(--color-session) 35%, transparent 40%);
-      background-attachment: scroll;
+      background-attachment: fixed;
       background-size: var(--frame-border) var(--frame-border);
       z-index: 2;
     }
@@ -25,6 +25,7 @@ const FrameClosure = styled.span<FrameClosureProps>(
       height: 3.2rem;
       content: '';
       background: var(--color-background);
+      background-attachment: fixed;
       z-index: 1;
     }
   `,

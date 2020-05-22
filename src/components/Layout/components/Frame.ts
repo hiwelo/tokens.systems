@@ -16,6 +16,7 @@ const Frame = styled.div`
     display: block;
     content: '';
     background: radial-gradient(var(--color-session) 35%, transparent 40%);
+    background-attachment: fixed;
     background-size: var(--frame-border) var(--frame-border);
     z-index: -2;
   }
