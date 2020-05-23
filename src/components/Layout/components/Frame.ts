@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const Frame = styled.div`
   --frame-border: 0.2rem;
 
+  min-height: 100vh;
   position: relative;
   padding: 3.2rem 4rem;
   width: 100vw;

@@ -7,13 +7,13 @@ import ContentWrapper from './components/ContentWrapper';
 import Frame from './components/Frame';
 import FrameClosure from './components/FrameClosure';
 
-const Layout: React.FC = ({ children }) => (
+const Layout: React.FC<LayoutProps> = ({ children, semanticHeader }) => (
   <BaseStyles>
     <HeadingProvider>
       <Frame>
         <FrameClosure />
         <ContentWrapper>
-          <Header />
+          <Header semantic={semanticHeader} />
           {children}
         </ContentWrapper>
         <FrameClosure edge="bottom" />
@@ -21,5 +21,10 @@ const Layout: React.FC = ({ children }) => (
     </HeadingProvider>
   </BaseStyles>
 );
+
+interface LayoutProps {
+  /** Uses a semantic header using `header` */
+  semanticHeader?: boolean;
+}
 
 export default Layout;
