@@ -16,7 +16,8 @@ const EpisodeBox: React.FC<EpisodeBoxProps> = ({ excerpt, number, slug, title })
         <EpisodeHeader>
           <EpisodeTitle>
             <EpisodeNumber>Episode #{number}</EpisodeNumber>
-            <Link to={slug}>{title}</Link>
+            {/* <Link to={slug}>{title}</Link> */}
+            {title}
           </EpisodeTitle>
         </EpisodeHeader>
         {excerpt && <p>{excerpt}</p>}
