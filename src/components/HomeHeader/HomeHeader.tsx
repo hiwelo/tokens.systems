@@ -16,9 +16,10 @@ const HomeHeader: React.FC<React.HTMLAttributes<HTMLElement>> = ({ ...rest }) =>
     </Chapo>
     <Chapo>
       New episodes are released <strong>every two weeks</strong> on Tuesdays on&nbsp;
-      <a href="https://podcasts.apple.com/">Apple&nbsp;Podcasts</a>,{' '}
-      <a href="https://open.spotify.com/">Spotify</a> and{' '}
-      <a href="https://soundcloud.com/tokens-podcast">Soundcloud</a>.
+      <a href="#">Apple&nbsp;Podcasts (coming&nbsp;soon)</a>,{' '}
+      <a href="https://anchor.fm/tokens">Anchor.fm</a>,{' '}
+      <a href="https://open.spotify.com/show/6XRDzcEh8g4KTxzUa4Ad7w">Spotify</a> and{' '}
+      <a href="https://soundcloud.com/tokens-podcast">Soundcloud (coming&nbsp;soon)</a>.
     </Chapo>
     <Chapo>
       Stay tuned for the first episode, published on&nbsp;
