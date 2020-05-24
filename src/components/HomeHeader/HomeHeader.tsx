@@ -22,8 +22,8 @@ const HomeHeader: React.FC<React.HTMLAttributes<HTMLElement>> = ({ ...rest }) =>
     </Chapo>
     <Chapo>
       Stay tuned for the first episode, published on&nbsp;
-      <time dateTime="2020-05-26">
-        <strong>Tuesday, May&nbsp;26th&nbsp;2020</strong>
+      <time dateTime="2020-06-01">
+        <strong>Monday, June&nbsp;1st&nbsp;2020</strong>
       </time>
       .
     </Chapo>
