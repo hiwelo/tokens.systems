@@ -17,10 +17,32 @@ const HomeHeader: React.FC<React.HTMLAttributes<HTMLElement>> = ({ ...rest }) =>
     <Chapo>
       New episodes are released <strong>every two weeks</strong> on Tuesdays on&nbsp;
       <em>Apple&nbsp;Podcasts (coming&nbsp;soon)</em>,{' '}
-      <em>Google&nbsp;Podcasts (coming&nbsp;soon)</em>,{' '}
-      <a href="https://anchor.fm/tokens">Anchor.fm</a>,{' '}
-      <a href="https://open.spotify.com/show/6XRDzcEh8g4KTxzUa4Ad7w">Spotify</a> and{' '}
-      <a href="https://soundcloud.com/tokens-podcast">Soundcloud</a>.
+      <a
+        href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yMmY4NWU0MC9wb2RjYXN0L3Jzcw=="
+        target="_blank">
+        Google&nbsp;Podcasts
+      </a>
+      ,{' '}
+      <a href="https://anchor.fm/tokens" target="_blank">
+        Anchor.fm
+      </a>
+      ,{' '}
+      <a href="https://radiopublic.com/tokens-design-systems-G2beQ0" target="_blank">
+        RadioPublic
+      </a>
+      ,{' '}
+      <a href="https://www.breaker.audio/tokens-star-design-systems" target="_blank">
+        Breaker
+      </a>
+      ,{' '}
+      <a href="https://open.spotify.com/show/6XRDzcEh8g4KTxzUa4Ad7w" target="_blank">
+        Spotify
+      </a>{' '}
+      and{' '}
+      <a href="https://soundcloud.com/tokens-podcast" target="_blank">
+        Soundcloud
+      </a>
+      .
     </Chapo>
     <Chapo>
       Stay tuned for the first episode, published on&nbsp;
