@@ -21,7 +21,7 @@ const EpisodeBox: React.FC<EpisodeBoxProps> = ({ excerpt, number, slug, title })
           </EpisodeTitle>
         </EpisodeHeader>
         {excerpt && <p>{excerpt}</p>}
-        <Chapo>Stay tuned for the release, on June&nbsp;1st!</Chapo>
+        <Chapo>Stay tuned for the release, on June&nbsp;20th!</Chapo>
       </Box>
     </EpisodeContainer>
   );
