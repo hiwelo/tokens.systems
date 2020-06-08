@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import React from 'react';
 
 import { EpisodeData } from '../../types/Episode';
@@ -21,7 +20,7 @@ const EpisodeBox: React.FC<EpisodeBoxProps> = ({ excerpt, number, slug, title })
           </EpisodeTitle>
         </EpisodeHeader>
         {excerpt && <p>{excerpt}</p>}
-        <Chapo>Stay tuned for the release, on June&nbsp;20th!</Chapo>
+        <Chapo>Stay tuned for the release, on June&nbsp;29th!</Chapo>
       </Box>
     </EpisodeContainer>
   );
