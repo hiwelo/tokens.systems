@@ -6,7 +6,7 @@ import useHeadingContext from './hooks';
 
 const HeadingProvider: React.FC<HeadingProviderProps> = ({ children, level }) => {
   const currentLevel = useHeadingContext() ?? 0;
-  const contextLevel = level ?? ((currentLevel + 1) as HeadingLevel);
+  const contextLevel = Math.min(level ?? ((currentLevel + 1) as HeadingLevel), 6);
 
   return <HeadingContext.Provider value={contextLevel}>{children}</HeadingContext.Provider>;
 };
