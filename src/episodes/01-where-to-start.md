@@ -1,7 +1,7 @@
 ---
 slug: "/episodes/01-where-to-start"
 title: "Building a design system: where to start?"
-date: "2020-06-01"
+date: "2020-09-01"
 number: 1
 status: "published"
 ---
